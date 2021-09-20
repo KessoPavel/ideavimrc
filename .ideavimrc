@@ -27,3 +27,4 @@ nnoremap <leader>t :action Terminal.OpenInTerminal<CR>
 :map <leader>j <c-w>j
 :map <leader>k <c-w>k
 :map <leader>w <c-w>w
+:map <leader>c <Action>(CommentByLineComment)
