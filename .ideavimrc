@@ -1,5 +1,7 @@
 set visualbell
-set noerrorbells
+set hlsearch
+set ignorecase
+set incsearch
 
 set clipboard+=unnamed
 set clipboard+=ideaput
@@ -19,8 +21,8 @@ nnoremap <leader>t :action Terminal.OpenInTerminal<CR>
 :map <leader>6 <Action>(GoToTab6)
 :map <leader>7 <Action>(GoToTab7)
 :map <leader>8 <Action>(GoToTab8)
-:map <leader>r <Action>(ReformatCode)
-:map <leader>s <Action>(Android.SyncProject)
+:map <leader>rc <Action>(ReformatCode)
+:map <leader>sp <Action>(Android.SyncProject)
 :map <leader>b <Action>(Run)
 :map <leader>l <c-w>l
 :map <leader>h <c-w>h
@@ -28,3 +30,7 @@ nnoremap <leader>t :action Terminal.OpenInTerminal<CR>
 :map <leader>k <c-w>k
 :map <leader>w <c-w>w
 :map <leader>c <Action>(CommentByLineComment)
+:map <leader>sf <Action>(NewScratchFile)
+:map <leader>p <Action>(togglePowerModeII)
+:map <leader>n <Action>(NewFromTemplate)
+:map <leader>ws <Action>(WelcomeScreen.Settings)
